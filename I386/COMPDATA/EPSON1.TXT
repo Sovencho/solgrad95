@@ -1,0 +1,38 @@
+Сведения о совместимости
+
+Установленные в данный момент драйверы следующих принтеров Epson, возможно, подключенных к данному компьютеру, под управлением Microsoft Windows XP будут функционировать неправильно:
+
+EPSON ActionLaser 1600
+EPSON EPL-3000
+EPSON EPL-4300 (PCL)
+EPSON EPL-5200 (PCL)
+EPSON EPL-5200+
+EPSON EPL-5500
+EPSON EPL-5600
+EPSON EPL-8100 (PCL)
+EPSON EPL-9000
+EPSON EPL-N1200
+EPSON EPL-N2000
+EPSON EPL-C8000 Advanced
+EPSON EPL-C8200 Advanced
+EPSON AL-C2000 Advanced
+EPSON AL-C8500 Advanced
+EPSON EPL-5700 Advanced
+EPSON EPL-5800 Advanced
+EPSON EPL-N1600 Advanced
+EPSON EPL-N2050 Advanced
+EPSON EPL-N2700 Advanced
+EPSON EPL-N2750 Advanced
+EPSON EPL-N4000 Advanced
+EPSON EPL-N4000+ Advanced
+EPSON EPL-5700i Advanced
+EPSON EPL-5700L Advanced
+
+Замените драйвер обновленной версией, в противном случае программа установки Windows XP установит совместимый драйвер.
+Для получения последней версии драйверов принтера посетите веб-узел Epson. Веб-адреса могут изменяться, поэтому существует вероятность того, что к этому узлу подключиться не удастся.
+
+Примечание. В Windows XP отсутствует совместимый драйвер для следующих моделей принтеров.
+
+EPSON EPL-5700i Advanced
+EPSON EPL-5700L Advanced
+

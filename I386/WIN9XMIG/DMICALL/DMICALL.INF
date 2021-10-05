@@ -1,0 +1,80 @@
+;;
+;; DMICall.inf -- Sony DMI Call Device INF for Windows 2000
+;;
+;;  Copyright 2000 Sony Corporation
+;;
+
+[Version]
+signature="$Windows NT$"
+Class=DMICall
+ClassGuid={8B48AB61-F04A-44d0-A0F6-3EA4F5462C0E}
+Provider=%Sony%
+
+[ControlFlags]
+; All PnP devices should be excluded from manual AddDevice Applet list
+ExcludeFromSelect=*
+
+[DestinationDirs]
+defaultdestdir=12
+;DMICall.CopyFiles=12
+
+; =================== Class Sections ===========================
+
+[ClassInstall32]
+Addreg=DMICallClassReg
+
+[DMICallClassReg]
+HKR,,,,%DMICallClassName%
+HKR,,Icon,,0
+HKR,,NoDisplayClass,,1
+
+; =================== Table of content =========================
+
+[Manufacturer]
+%SonyMfg%=Sony
+
+; =================== Sony ========================
+
+[Sony]
+%SONY_DMI_CALL.DeviceDesc%=DMICall,SONY_DMI_CALL
+
+[DMICall]
+AddReg=DMICall.AddReg
+CopyFiles=DMICall.CopyFiles
+
+[DMICall.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,"DMICall.sys"
+
+[DMICall.NT]
+AddReg=DMICall.AddReg
+CopyFiles=DMICall.CopyFiles
+
+[DMICall.NT.Services]
+AddService = DMICall,2,DMICall_ServiceInstallSection
+
+[DMICall_ServiceInstallSection]
+DisplayName=%SONY_DMI_CALL.service.DeviceDesc%
+ServiceType=1
+StartType=1
+ErrorControl=1
+ServiceBinary=%12%\DMICall.sys
+
+[DMICall.CopyFiles]
+DMICall.sys
+
+
+[SourceDisksNames]
+1="Sony DMI Call Install Disk",,0
+
+[SourceDiskFiles]
+DMICall.sys = 1
+
+
+[Strings]
+Sony="Sony Corporation"
+DMICallClassName="Sony DMI Call устройства"
+
+SonyMfg="Sony Corporation"
+SONY_DMI_CALL.DeviceDesc="Драйвер Sony DMI Call"
+SONY_DMI_CALL.service.DeviceDesc="Служба Sony DMI Call"

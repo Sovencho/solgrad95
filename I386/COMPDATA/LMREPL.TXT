@@ -1,0 +1,8 @@
+Сведения о совместимости
+
+Служебная программа репликации каталогов Directory Replicator Service (LMRepl) несовместима с данной версией Microsoft Windows и будет отключена при обновлении. Данная программа заменена в Windows ХР системой репликации файлов.
+
+Для получения дополнительных сведений обратитесь к главе «Определение путей обновления домена» (Determining Domain Upgrade Strategies) в руководстве планирования развертывания Windows ХР (Windows 2000 Deployment Planning Guide), входящей в книгу «Ресурсы Windows ХР Server» (Windows 2000 Server Resource Kit), находящейся на компакт диске Windows ХР.
+
+Полный перечень программного обеспечения, поддерживаемого данной версией Microsoft Windows, содержится в списке Microsoft Windows XP Compatibility List на веб-узле http://www.microsoft.com.
+

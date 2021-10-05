@@ -1,0 +1,12 @@
+
+[Version]
+Signature = "$Windows NT$"
+Provider=Microsoft .NET Framework 1.1 - Russian
+
+[Scenario List]
+;CustomRio.dll
+XPSPscen.dll
+
+[Scenario Factory Information]
+;Default Scenario=<Scenario ID (GUID)>  ;;assigning to the guid for vsscenario
+Default Scenario=78063381-E8D1-4c5b-A068-B3DC78DFE2A4

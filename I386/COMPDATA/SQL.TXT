@@ -1,0 +1,8 @@
+Сведения о совместимости
+
+Программное обеспечение Microsoft SQL Server 6.5 Standard Edition и Microsoft SQL Server 6.5 Enterprise Edition несовместимо с данной версией Microsoft Windows. Необходимо установить пакет обновления Microsoft SQL Server 6.5 Service Pack версии 5 или более поздней для использования данного программного обеспечения в среде Windows XP.
+
+Для получения сведений о данной программе и загрузки пакета обновления SQL Server 6.5 Service Pack версии 5 (или более поздней) посетите страницу Microsoft SQL Server на веб-узле корпорации Майкрософт.
+
+Полный перечень программного обеспечения, поддерживаемого данной версией Microsoft Windows, содержится в списке Microsoft Windows XP Compatibility List на веб-узле http://www.microsoft.com.
+

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+	<assemblyIdentity version="5.2.2.3" processorArchitecture="x86" name="Microsoft.Windows.Networking.RtcRes" type="win32" publicKeyToken="6595b64144ccf1df" language="ru"/>
+	<description>RTC Resource DLL</description>
+	<file name="rtcres.dll" hash="69631c7a2a9c5ae35c7f05bf864f09051604eb0a" hashalg="SHA1"></file>
+</assembly>

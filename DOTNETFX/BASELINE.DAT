@@ -1,0 +1,100 @@
+[Version]
+Signature = "$Windows NT$"
+Provider=Microsoft .NET Framework 1.1 - Russian
+Version=000.000.01
+NullString=Null String
+Lang=1049
+
+;this section exists for Cartman use
+[Display Pages]
+GFN_DPID Component Selection Page
+GFN_DPID Data Directory Page
+GFN_DPID Service Account Page
+<component pages>
+GFN_DPID Summary Page
+
+;the [Complete Component List] is required by cartman
+[Complete Component List]
+GFN_MID Framework
+GFN_MID Framework LangPack
+GFN_MID Framework SP1
+
+[gencomp01]
+moduleid=80C76812-D3FA-44cf-A082-7D2C2F15BF03
+GFN=GFN_MID Framework
+ComponentName=Microsoft .NET Framework 1.1
+VersionCheck=RegDwordCheck
+DetectKey=HKLM,SOFTWARE\Microsoft\NET Framework Setup\NDP\v1.1.4322
+DetectKeyVal=Install
+DetectKeyValData=1
+IgnoreLaterVersions=1
+ReturnType=NetRtReturnCheck
+CommandLine=/q:a /c:"install /q /l"
+EstInstallTime=300
+CleanCost=130000000
+version guid=56F0E640-89CA-4a9f-8994-6259E7D1D190
+version string=1.0
+Executable=dotnetfx.exe
+Reboot=0
+RebootLaterOk=0
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWhistler=1
+InstallOnFutureNT=1
+
+[gencomp02]
+moduleid=692BA24D-53B0-4d0d-9497-F902D466EE0A
+GFN=GFN_MID Framework LangPack
+ComponentName=Microsoft .NET Framework Russian Language Pack
+VersionCheck=RegDwordCheck
+DetectKey=HKLM,SOFTWARE\Microsoft\NET Framework Setup\NDP\v1.1.4322\1049
+DetectKeyVal=Install
+DetectKeyValData=1
+IgnoreLaterVersions=1
+ReturnType=NetRtReturnCheck
+CommandLine=/q:a /c:"inst /q /l"
+EstInstallTime=100
+CleanCost=40000000
+version guid=692BA24D-53B0-4d0d-9497-F902D466EE0A
+version string=1.0
+Executable=langpack.exe
+Reboot=0
+RebootLaterOk=0
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWhistler=1
+InstallOnFutureNT=1
+
+[gencomp03]
+moduleid=36872615-CCE2-438c-83E3-EF1F483FC79E
+GFN=GFN_MID Framework SP1
+ComponentName=Microsoft .NET Framework 1.1 Service Pack 1
+VersionCheck=RegDwordCheck
+DetectKey=HKLM,SOFTWARE\Microsoft\NET Framework Setup\NDP\v1.1.4322
+DetectKeyVal=SP
+DetectKeyValData=1
+IgnoreLaterVersions=0
+ReturnType=NetRtReturnCheck
+CommandLine=/Q
+EstInstallTime=200
+CleanCost=60000000
+version guid=9A6F5A6A-99B5-4069-8A2B-5A63DDF9B0E3
+version string=2.0
+Executable=ndpsp.exe
+Reboot=0
+RebootLaterOk=0
+LangSensitive=neutral
+EncryptionOpt=0
+InstallOnWinNT4=1
+InstallOnWin2k=1
+InstallOnWhistler=1
+InstallOnFutureNT=1
+
+
+[VS Custom]
+DepCheckLogon=XPSP2
+

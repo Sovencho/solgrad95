@@ -1,0 +1,10 @@
+Сведения о совместимости
+
+Программа Network Monitor Agent несовместима с данной версией Microsoft Windows и при обновлении будет заменена программой Network Monitor Driver.
+
+При использовании версии 1.х программы Microsoft Network Monitor, поставляемой с программой Microsoft System Management Server, необходимо учесть, что эта программа зависит от программы Network Monitor Agent как для локальных, так и для сетевых записей и будет работать неправильно в среде Windows ХР.
+
+Для получения дополнительных сведений о данном программном обеспечении или версии, работающей в среде Windows ХР, посетите домашнюю страницу Microsoft Systems Management Server на веб-узле корпорации Майкрософт.
+
+Полный перечень программного обеспечения, поддерживаемого данной версией Microsoft Windows, содержится в списке Microsoft Windows XP Compatibility List на веб-узле http://www.microsoft.com.
+

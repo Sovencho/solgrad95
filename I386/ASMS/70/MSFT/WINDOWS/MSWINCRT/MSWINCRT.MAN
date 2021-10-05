@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+    <assemblyIdentity type="win32" name="Microsoft.Windows.CPlusPlusRuntime" version="7.0.2600.5512" processorArchitecture="x86" publicKeyToken="6595b64144ccf1df"/>
+    <file name="msvcrt.dll" hash="9d800425f6bbdfaa8cec95611bd56e5150ceabe9" hashalg="SHA1"/>
+    <file name="msvcirt.dll" hash="38de4a77961f2f2eb248b5ff66349aefe7597962" hashalg="SHA1"/>
+</assembly>

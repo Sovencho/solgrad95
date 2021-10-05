@@ -1,0 +1,1 @@
+”становка пакета обновлени€ 3 (SP3) дл€ Microsoft Windows XP отменена, так как невозможно установить пакет обновлени€ 3 (SP3) дл€ Windows XP поверх Windows PowerShell (TM) 1.0. „тобы продолжить, удалите Windows PowerShell (TM) 1.0. ƒополнительные сведени€ см. по адресу http://support.microsoft.com/kb/926139 (на английском €зыке)

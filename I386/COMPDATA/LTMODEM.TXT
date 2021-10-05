@@ -1,0 +1,8 @@
+Сведения о совместимости
+
+Установленный драйвер модема Lucent Technologies несовместим с данной версией Microsoft Windows и будет отключен при обновлении. If your modem is supported by Windows XP, a new driver will be installed during Windows XP Setup. Рекомендуется удалить драйвер и программное обеспечение данного модема перед продолжением.
+
+Для получения дополнительных сведений об этом драйвере посетите веб-узел изготовителя.
+
+Полный перечень устройств, поддерживаемых данной версией Microsoft Windows, содержится в списке Microsoft Windows XP Compatibility List на веб-узле http://www.microsoft.com.
+

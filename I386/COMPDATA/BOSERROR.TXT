@@ -1,0 +1,40 @@
+Обновление Small Business Server и BackOffice Server до Windows XP Server
+
+Ниже приведены сведения об обновлении Microsoft BackOffice Small Business Server и Microsoft BackOffice Server до Microsoft Windows XP Server.
+
+Small Business Server
+
+Непосредственное обновление Small Business Server 4.0 и Small Business Server 4.5 до Windows XP Server не поддерживается. Для получения самых последних сведений об обновлении Small Business Server до Windows XP Server обратитесь к интерактивной поддержке программных продуктов на веб-узле корпорации Майкрософт.
+
+Для получения сведений о национальных версиях Small Business Server обратитесь в местное представительство корпорации Майкрософт.
+
+BackOffice Server
+
+Для получения самых последних сведений об обновлении BackOffice Server до Windows XP Server обратитесь к интерактивной поддержке программный продуктов на веб-узле корпорации Майкрософт.
+
+Для получения сведений о международных версиях BackOffice Server обратитесь в местное представительство корпорации Майкрософт.
+
+Обновление BackOffice Server 2.5
+
+Непосредственное обновление BackOffice Server 2,5 до Windows XP Server не поддерживается. Чтобы обновить приложения до версий, поддерживаемых Windows ХР Server, следует вначале обновить приложения до BackOffice Server 4.5, а затем до Windows ХР Server.
+
+Обновление BackOffice Server 4.0
+
+Непосредственное обновление BackOffice Server 4.0 до Windows XP Server не поддерживается. Чтобы обновить приложения до версий, поддерживаемых Windows ХР Server, следует вначале обновить приложения до BackOffice Server 4.5, а затем до Windows ХР Server.
+
+Если для установки серверного приложения использована программа установки BackOffice Server 4.0, имеется возможность удалить BackOffice Server 4.0. Это приведет к удалению всех файлов, относящихся к BackOffice Server 4.0, но не повлияет на установленные серверные приложения. После удаления BackOffice Server 4.0 перезапустите программу установки Windows ХР Server Setup для обновления операционной системы.
+
+Обновление BackOffice Server 4.5
+
+При обновлении BackOffice Server 4.5 до Windows ХР Server необходимо учесть следующие факторы.
+
+Версия Microsoft Site Server, поставляемая с BackOffice Server 4.5, и некоторые компоненты, которые зависят от Site Server, например Intranet Starter Site, не могут быть установлены в Windows ХР Server.
+Функция веб-администрирования BackOffice Server 4.5 Web Administration не поддерживается.
+Если первоначально установленные Small Business Server 4.0 или Small Business Server 4.5 обновляются до BackOffice Server 4.5, служба факсов больше не поддерживается.
+
+Сведения о продукте
+
+Для получения сведений о Microsoft BackOffice Small Business Server посетите веб-узел корпорации Майкрософт.
+
+Для получения сведений о Microsoft BackOffice Server посетите веб-узел корпорации Майкрософт.
+

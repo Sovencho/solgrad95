@@ -1,0 +1,61 @@
+
+; Microsoft Windows
+; (c) Корпорация Майкрософт, 2007. Все права защищены.
+;
+; Пример файла ответов для автоматической установки.
+;
+; Этот файл содержит сведения об автоматизации установки или обновления
+; Windows, чтобы программа установки выполнялась без участия пользователя.
+; Дополнительные сведения можно найти в файле REF.CHM в папке
+; CD:\support\tools\deploy.cab
+
+[Unattended]
+Unattendmode = FullUnattended
+OemPreinstall = NO
+TargetPath = *
+Filesystem = LeaveAlone
+
+[GuiUnattended]
+; Установка значения TimeZone в московское время
+; Установка значения AdminPassword в NULL
+; Разрешение автоматического входа в систему и установка
+; счетчика автоматических входов в единицу
+TimeZone = "145"
+AdminPassword = *
+AutoLogon = Yes
+AutoLogonCount = 1
+
+[LicenseFilePrintData]
+;Для установки сервера
+AutoMode = "PerServer"
+AutoUsers = "5"
+
+[GuiRunOnce]
+; Список программ, которые необходимо запустить при первом входе
+; пользователя в систему.
+
+
+[Display]
+BitsPerPel = 16
+XResolution = 800
+YResolution = 600
+VRefresh = 70
+
+[Networking]
+
+[Identification]
+JoinWorkgroup = Workgroup
+
+[UserData]
+FullName = "Имя пользователя"
+OrgName = "Имя организации"
+ComputerName = *
+
+                          
+
+
+
+
+
+
+ProductKey     = "CD87T-HFP4C-V7X7H-8VY68-W7D7M"

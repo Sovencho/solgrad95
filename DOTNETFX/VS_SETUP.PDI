@@ -1,0 +1,21 @@
+[Version]
+Signature = "$Windows NT$"
+Provider=Microsoft .NET Framework 1.1 - Russian
+Version=000.000.01
+NullString=Null String
+
+[Complete Component List]
+GFN_MID Framework
+GFN_MID Framework LangPack
+GFN_MID Framework SP1
+
+[CompleteDependencyList]
+gencomp01
+gencomp02
+gencomp03
+
+[Microsoft .NET Framework 1.1 - Russian]
+gencomp01
+gencomp02
+gencomp03
+

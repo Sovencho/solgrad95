@@ -1,0 +1,526 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HTML DIR="LTR">
+<HEAD>
+
+<META NAME="MS.LOCALE" CONTENT="ru-RU">
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=windows-1251">
+
+<TITLE>Заметки о выпуске для системы Microsoft Windows&nbsp;XP</TITLE>
+
+<STYLE TYPE="text/css">
+
+BODY { FONT-SIZE: 80%; BACKGROUND: #ffffff; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, Sans Serif; MARGIN-LEFT: 2em; MARGIN-RIGHT: 2em; }
+
+H1 { CLEAR: both; FONT-SIZE: 170%; MARGIN-TOP: 3em; MARGIN-BOTTOM: 0.5em }
+
+H2 { CLEAR: both; FONT-SIZE: 130%; MARGIN-TOP: 1.5em; MARGIN-BOTTOM: 0.5em; }
+
+H3 { CLEAR: both; FONT-SIZE: 120%; MARGIN-TOP: 1.2em; MARGIN-BOTTOM: 0.5em }
+
+H4 { CLEAR: both; FONT-SIZE: 105%; MARGIN-TOP: 1.5em; MARGIN-BOTTOM: -0.5em }
+
+P { CLEAR: both; MARGIN-TOP: 1.5em; MARGIN-BOTTOM: 0.6em }
+
+P.indent { MARGIN-LEFT: 3em }
+
+P.note, P.tip, P.important, P.caution, P.warning { MARGIN-TOP: 1em; FONT-WEIGHT: bold; MARGIN-BOTTOM: -0.25em }
+
+p.toc1	{ FONT-SIZE: 110%; FONT-WEIGHT: bold; MARGIN-TOP: 1em; MARGIN-BOTTOM: 1.25em; }
+
+p.toc2	{ FONT-SIZE: 100%; FONT-WEIGHT: bold; MARGIN-TOP: -1em; MARGIN-BOTTOM: 2em; margin-left: 2em;  }
+
+P.proclabel { FONT-WEIGHT: bold; FONT-SIZE: 105%; }
+
+OL { MARGIN-TOP: 0.5em; PADDING-LEFT: 0em; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2.1em }
+
+OL.indent {	PADDING-LEFT: 3em; }
+
+UL { MARGIN-TOP: 0.6em; PADDING-LEFT: 0em; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 1.5em; LIST-STYLE-TYPE: disc }
+
+LI { CLEAR: both; MARGIN-BOTTOM: 0.7em }
+
+TABLE {	FONT-SIZE: 100%; BACKGROUND: #ffffff; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, Sans Serif }
+
+TH		{ TEXT-ALIGN: left;	BACKGROUND: #DDDDDD; VERTICAL-ALIGN: bottom;
+		PADDING: .2em; PADDING-LEFT: .45em;	PADDING-RIGHT: .5em;}
+		
+TR		{ VERTICAL-ALIGN: top; }
+		
+TD		{ BACKGROUND: #EEEEEE; VERTICAL-ALIGN: top;
+		PADDING: .2em; PADDING-LEFT: .45em;	PADDING-RIGHT: .5em;}
+
+TABLE.heading TD	{ BACKGROUND: #FFFFFF; VERTICAL-ALIGN: bottom; PADDING: 0em; }
+
+a:link, a:visited 	{ COLOR: #0000FF; TEXT-DECORATION:underline;}
+a:active, a:hover 	{ COLOR: #FF0000;  CURSOR:hand; TEXT-DECORATION:underline;}
+
+HR { HEIGHT: 1px }
+
+a:link.finePrint, a:visited.finePrint {FONT-SIZE: 85%; COLOR: #0066cc; TEXT-DECORATION: none}
+a:active.finePrint, a:hover.finePrint 	{ color: #FF0000;  cursor:hand; text-decoration:underline;}
+
+dt		{ MARGIN-TOP: 1em; }
+dd		{ MARGIN-BOTTOM: 0em; MARGIN-LEFT: 1.5em; } 
+span.printonly	{DISPLAY:none !important; }
+span.webonly	{ DISPLAY:inline !important; }
+
+DIV.toc { MARGIN-BOTTOM: 6em; }
+
+DIV.toc UL { MARGIN-TOP: -1em; MARGIN-BOTTOM: 2em; margin-left: 3.25em;  }
+
+DIV.toc A:link, DIV.toc A:visited { COLOR: #0066cc; TEXT-DECORATION: none }
+DIV.toc a:hover 	{ color: #FF0000;  cursor:hand; text-decoration:underline;}
+DIV.indent	{ margin-left: 1.3em;}
+
+pre
+		{ margin-top: .5em;
+		margin-bottom: .5em;
+		background-color: #EEEEEE;
+		padding: .45em; }
+		
+code
+		{ font-family: Courier New; 
+		font-size: 1.1em; }
+
+</STYLE>
+
+<STYLE TYPE="text/css" MEDIA="print">
+
+DIV.pagebreak	{ PAGE-BREAK-BEFORE: always; }
+table  		{ FONT-SIZE: 100%; BORDER-COLLAPSE: collapse; }
+th 		{ TEXT-ALIGN:left; BORDER-STYLE: solid; BORDER-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 2px;  }
+td 		{ BORDER-STYLE: solid; BORDER-WIDTH: 1px; }
+
+table.heading th 		{ BORDER-STYLE: none;}
+table.heading td 		{ BORDER-STYLE: none;}
+
+span.webonly	{DISPLAY:none !important; }
+span.printonly	{DISPLAY:inline !important; }
+
+pre {padding-top: .25em; padding-left: .5em; padding-bottom: .3em;
+	border-style: solid; border-width: 1px;
+    MARGIN-LEFT: 0em;
+    MARGIN-TOP: .5em;
+    MARGIN-BOTTOM: .25em;}
+
+
+DIV.indent	{ margin-left: 1.3em;}
+
+DIV.toc A:link, DIV.toc A:visited { COLOR: #000000; TEXT-DECORATION: none }
+
+p.toc2	{ color: #0066cc;  }
+</STYLE>
+
+</HEAD>
+
+<BODY>
+<A NAME="microsoft_windows xp_release_notes_jrut"><img src="docs/winXP_logo_horiz_sm.gif" width="314" height="68" border="0" alt="Microsoft Windows XP"></A>
+
+<H1>Заметки о выпуске для системы Microsoft&reg; Windows&reg;&nbsp;XP</H1>
+
+<DIV CLASS="toc">
+<P CLASS="toc1"><A HREF="#setup">Важные сведения об этой<br> 
+версии Microsoft Windows&nbsp;XP</A></P>
+
+<P CLASS="toc1"><A HREF="#introduction_payb">Использование заметок</A></P>
+
+<P CLASS="toc1"><A HREF="#file_systems_lpqn">Файловые системы</A></P>
+
+<P CLASS="toc1"><A HREF="#network_and_communications_cziv">Сеть и подключения</A></P>
+
+<P CLASS="toc1"><A HREF="#software_applications_hyzg">Программные приложения</A></P>
+
+<P CLASS="toc1"><A HREF="#storage_msrl">Хранение</A></P>
+
+<P CLASS="toc1"><A HREF="#other_vezl">Прочие сведения</A></P>
+
+<P CLASS="toc1"><A HREF="#additional_resources_tcsn">Дополнительные ресурсы</A></P>
+
+<P CLASS="toc1"><A HREF="#copyright_details_ikxn">Авторские права</A></P>
+</DIV>
+
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="setup"></A> Важные сведения об этой версии Microsoft Windows&nbsp;XP</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+<p>Этот выпуск Microsoft&reg; Windows&reg;&nbsp;XP включает пакет обновления 3 (SP3). Это означает, что при установке версии Windows&nbsp;XP Home Edition или Windows&nbsp;XP Professional этого выпуска автоматически устанавливается пакет обновления 3 (SP3).</p>
+
+<P>Если не указано иное, все сведения из этих заметок о выпуске относятся к обеим системам (Windows&nbsp;XP Home Edition и Windows&nbsp;XP Professional).</P> 
+
+<P>В документе термин Windows&nbsp;XP используется для обозначения и Windows&nbsp;XP Home Edition, и Windows&nbsp;XP Professional, если речь не идет только об одной из этих операционных систем.</P>
+
+<p><b>Важные сведения для всех пользователей</b></p>
+<ul>
+<li>Установка системы Windows&nbsp;XP описана в разделе &quot;<a href="setupxp.htm" target="_blank"><u>Пошаговые инструкции. Установка Microsoft Windows&nbsp;XP</u></a>.&quot; </li>
+<li>Дополнительные сведения о пакете обновления см. на <A ID="MSUrl" HREF="http://go.microsoft.com/fwlink/?LinkID=104853" TITLE="http://www.microsoft.com/" TARGET="_blank"><u>веб-узле пакета обновления 3 (SP3) для Windows&nbsp;XP</u></A>.</li>
+</UL>
+
+<p><b>Важные сведения для администраторов и опытных пользователей</b></P>
+
+<UL>
+
+<LI>Дополнительные сведения о пакете обновления 3 (SP3), такие как заметки о выпуске и руководство по развертыванию, см. в разделе веб-узла Microsoft TechNet <A ID="MSUrl" HREF="http://go.microsoft.com/fwlink/?LinkID=103822" TITLE="http://www.microsoft.com/" TARGET="_blank"><u>Ресурсы для пакета обновления 3 (SP3) для Windows&nbsp;XP</u></A> (на английском языке). </LI>
+
+<li>Сведения об обновлениях, входящих в пакет обновления 2 (SP2) для системы Windows&nbsp;XP, см. в статье <u>811113</u></A> базы знаний Майкрософт, <A ID="MSUrl" HREF="http://go.microsoft.com/fwlink/?LinkID=28091" TITLE="http://www.microsoft.com/" TARGET="_blank"> &quot;Список исправлений, включенных в состав пакета обновления 2 (SP2) для Windows XP&quot;.</li>
+
+<li>Сведения о пакете обновления 2 (SP2), не включенные в заметки о выпуске, см. в статье <u>835935</u></A> базы знаний Майкрософт, <A ID="MSUrl" HREF="http://go.microsoft.com/fwlink/?LinkID=28511" TITLE="http://www.microsoft.com/" TARGET="_blank"> &quot;Замечания к выпуску пакета обновления 2 (SP2) для Windows XP&quot;.</li>
+
+<LI>Подробные технические сведения о пакете обновления 2 (SP2), в том числе о совместимости программного обеспечения, см. в статье <A ID="MSUrl" HREF="http://go.microsoft.com/fwlink/?LinkID=23354" TITLE="http://www.microsoft.com/" TARGET="_blank"><u>Пакет обновления 2 (SP2) для Windows&nbsp;XP: ресурсы для ИТ-специалистов</u></A> (на английском языке) на веб-узле Microsoft TechNet. </LI>
+</UL>
+
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="introduction_payb"></A> Использование заметок</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+<P>Эти заметки о выпуске содержат важные сведения, которые отсутствовали на момент публикации документации к системе Windows XP. Чтобы определить, относятся ли они к конкретному процессу установки, ознакомьтесь с каждой из заметок. Ресурсы, указанные в конце этого документа, также могут оказаться полезными.</P> 
+
+<P>Переход по ссылкам на веб-узлы корпорации Майкрософт, упомянутые в документе, требует подключения к Интернету.</P>
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="file_systems_lpqn"></A> Файловые системы</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+
+<H2><A NAME="webdav_redirector_web_publishing_vmkf"></A> Публикация в Интернете и шифрование файлов</H2>
+
+<P>Чтобы обеспечить конфиденциальность передаваемых данных, в системе Windows XP используется шифрованная файловая система (EFS) NTFS для локального шифрования файлов. Однако в случае перехода с систем Microsoft Windows&nbsp;98 или Microsoft Windows&nbsp;Millennium Edition без преобразования файловой системы в NTFS или при выборе в ходе установки файловой системы FAT шифровать файлы на веб-серверах будет невозможно.</P> 
+
+<P>Сведения о преобразовании файловых систем в NTFS см. в центре справки и поддержки системы Windows&nbsp;XP.</P>
+
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="network_and_communications_cziv"></A> Сеть и подключения</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+
+
+<H2><A NAME="compatibility_issues_with_third_party_pppoe_clients_naeb"></A> Вопросы совместимости с клиентскими приложениями протокола PPPoE сторонних разработчиков</H2>
+
+<P>Этот раздел посвящен проблемам, связанным с использованием приложений виртуальной частной сети сторонних разработчиков для удаленного доступа к компьютерам.</P>
+
+<P>Многие клиентские приложения протокола PPPoE сторонних разработчиков работают или устанавливаются в системе Windows&nbsp;XP неправильно. Если для подключения поставщик услуг Интернета применяет протокол PPPoE, возможные проблемы можно устранить, используя клиент PPPoE в системе Windows XP или запросив клиентское приложение PPPoE, совместимое с Windows XP, у поставщика программного обеспечения или поставщика услуг Интернета. </P>
+
+<P>При использовании одного из следующих продуктов обратитесь к поставщику за версией программного обеспечения, совместимой с системой Windows&nbsp;XP.</p>
+
+<UL>
+	<LI>WinPoET версии 2.1a или более ранней</li>
+	<LI>EnterNet 300 версии 1.34 или более ранней</li></UL>
+
+<P class="proclabel">Чтобы создать подключение с помощью клиента PPPoE в составе системы Windows XP, выполните указанные ниже действия.</p>
+<OL>
+	<LI>В меню <B>Пуск</B> выберите пункт <B>Панель управления</B>, а затем — элемент <B>Сеть и подключения к Интернету</B>.</li>
+		<LI>В разделе <B>Сетевые задачи</B> выберите пункт <B>Создание нового подключения</B>. 
+<p>Будет запущен <B>мастер новых подключений</B>.</p></li>
+<LI>Нажмите кнопку <b>Далее</b>.</LI>
+	<LI>Выберите один из перечисленных ниже параметров, подтвердив выбор нажатием кнопки <B>Далее</B>.
+<UL>
+	<LI><B>Подключить к Интернету</B></li>
+	<LI><B>Установить подключение вручную</B></li>
+	<LI><B>Через высокоскоростное подключение, запрашивающее имя пользователя и пароль</B></li></UL>
+</li>
+	<LI>Следуйте указаниям в мастере. 
+	<p>Поле <B>Имя поставщика услуг</B> можно оставить пустым. В этом случае система Windows&nbsp;XP попытается обнаружить подключение.</p>
+</li></OL>
+
+<H2><A NAME="legacy_networking_components_zpcb"></A>Сетевые протоколы, поддержка которых в системе Windows&nbsp;XP прекращена</H2>
+
+<P>Система Windows&nbsp;XP больше не поддерживает некоторые сетевые протоколы, поскольку возможности, которые они обеспечивают, заменены эквивалентными возможностями набора протоколов TCP/IP. </P>
+
+<P>В системе Windows XP прекращена поддержка следующих протоколов:</p>
+
+<UL>
+	<LI>NetBEUI, немаршрутизируемый протокол;</li>
+	<LI>DLC (Data Link Control), немаршрутизируемый протокол;</li>
+	<LI>AppleTalk, протокол, используемый с компьютерами Apple.</li></UL>
+
+<H2><A NAME="telnet_client_veiq"></A> Клиентские приложения Telnet на терминалах VTNT для восточноазиатских языков</H2>
+
+<p>Для правильной работы с восточноазиатскими языками настройте клиенты Telnet на терминалах VTNT на использование шрифтов TrueType. Это необходимо сделать до запуска клиента Telnet. Процедура описана ниже.</p>
+
+<P class="proclabel">Чтобы настроить использование шрифтов TrueType в клиентах Telnet, выполните указанные ниже действия.</p>
+<OL>
+	<LI>Откройте окно командной строки.</li>
+	<LI>Щелкните правой кнопкой мыши заголовок или системное меню окна командной строки и выберите команду <B>Свойства</B>.</li>
+	<LI>На вкладке <B>Шрифт</B> выберите шрифт TrueType и нажмите кнопку <B>ОК</B>.</li>
+	<LI>Выберите параметр <B>Изменить ярлык для запуска этого окна</B> и нажмите кнопку <B>ОК</B>.</li>
+	<LI>В меню <B>Пуск</B> выберите команду <B>Выполнить</B> и введите команду:<br><br> 
+	<b>telnet</b></LI>
+<LI>После открытия окна Telnet повторите действия 2—4.
+</li></OL>
+
+<H2><A NAME="wireless_networking_devices_rgat"></A> Беспроводные сетевые устройства</H2>
+
+<H3><A NAME="orinoco_wireless_lan_card_ilok"></A> Адаптер беспроводной сети ORiNOCO</H3>
+
+<P>При установке программ с компакт-диска для адаптера беспроводной сети ORiNOCO служба настройки беспроводной связи Windows&nbsp;XP работает неправильно, так как эти программы вмешиваются в работу элемента управления адаптером. В результате вкладка настройки беспроводной связи в окне свойств сети отсутствует и адаптер не настраивается автоматически.</P>
+
+<P class="proclabel">Чтобы устранить неполадки в работе адаптера беспроводной сети ORiNOCO, выполните указанные ниже действия.</p>
+
+<OL>
+	<LI>Удалите программы ORiNOCO с помощью элемента панели управления <B>Установка и удаление программ</B>.</li>
+	<LI>Для удаления адаптера ORiNOCO используйте диспетчер устройств.
+<P>Чтобы открыть диспетчер устройств, нажмите кнопку <B>Пуск</B> и выберите команду <B>Панель управления</B>. Выберите элемент <B>Производительность и обслуживание</B> и щелкните значок <B>Система</B>. На вкладке <B>Оборудование</B> нажмите кнопку <B>Диспетчер устройств</B>.</p></li>
+	<LI>Переустановите драйверы, чтобы повторно определить адаптер с помощью параметра диспетчера устройств <B>Обновить конфигурацию оборудования</B> или путем перезагрузки системы Windows&nbsp;XP.</li></OL>
+
+<H3><A NAME="wireless_display_messages_udit"></A> Сообщения беспроводной сети</H3>
+
+<P>Эти сведения относятся к беспроводным устройствам, использующим следующие стандарты:</p>
+
+<UL>
+	<LI>IEEE 802.11 (стандарт беспроводной сети Ethernet);</li>
+	<LI>IEEE 802.1X (стандарт проверки управления сетевым доступом на основании порта).</li></UL>
+
+<P>При использовании беспроводной конфигурации IEEE 802.11 и протокола проверки подлинности сети IEEE 802.1X сведения о пользователях и запросы действий отображаются во всплывающих сообщениях в области уведомлений (в правом нижнем углу экрана).</P>
+
+<P>Однако после обновления до Windows&nbsp;XP этот значок может не появляться. Завершив установку, проверьте, появился ли значок. Если он отсутствует, используйте описанную ниже процедуру для устранения этой неполадки.</p>
+
+<P class="proclabel"><b>Чтобы значок сети отображался в области уведомлений, выполните указанные ниже действия.</b></P>
+<OL>
+	<LI>В меню <B>Пуск</B> выберите пункт <B>Панель управления</B>, а затем — элемент <B>Сеть и подключения к Интернету</B>.</li>
+	<LI>Выберите пункт <B>Сетевые подключения</B>.</li>
+	<LI>Щелкните правой кнопкой мыши значок беспроводного подключения и выберите команду <B>Свойства</B>.</li>
+	<LI>На вкладке <B>Общие</B> установите флажок <B>При подключении вывести значок в области уведомлений</B>.</li></OL>
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="software_applications_hyzg"></A> Программные приложения</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+<h2>Совместимость программного обеспечения и пакет обновления 2 (SP2)</h2>
+<p>Сведения о проблемах совместимости программного обеспечения при использовании пакета обновления 2 (SP2) см. в статье <A ID="MSUrl" HREF="http://go.microsoft.com/fwlink/?LinkID=23354" TITLE="http://www.microsoft.com/" TARGET="_blank"><u>Пакет обновления 2 (SP2) для Windows&nbsp;XP: ресурсы для ИТ-специалистов</u></A> (на английском языке) на веб-узле Microsoft TechNet.</p>
+
+<H2><A NAME="antivirus_programs_rlzg"></A> Антивирусные программы</H2>
+
+<P>Убедитесь в том, что используемые антивирусные программы предназначены именно для установленной версии Windows&nbsp;XP. Это значит, что программное обеспечение должно быть создано специально для Windows&nbsp;XP Home Edition или Windows&nbsp;XP Professional. </P>
+<P>Драйверы антивирусной программы, не предназначенные для конкретной версии системы Windows&nbsp;XP, могут вызвать неполадки. Например, программное обеспечение может не поддерживать проверку на наличие вирусов в режиме реального времени, что сделает систему более уязвимой для атак.</P> 
+
+<P>Неполадки могут быть как незначительными (которые можно устранить), так и серьезными (например, частичная или полная потеря данных или невозможность использовать компьютер).</P> 
+
+<P>Чтобы избежать таких неполадок, убедитесь в том, что антивирусная программа предназначена для используемой операционной системы. При возникновении вопросов или необходимости приобрести ту или иную антивирусную программу обратитесь к поставщику программного обеспечения. </P>
+
+<H2><A NAME="microsoft_agent_zhoq"></A> Microsoft Agent</H2>
+
+<P>Система Windows&nbsp;XP поддерживает программы и модули с интерфейсом SAPI (Speech Application Programming Interface) версии 5.0. Чтобы избежать функциональных сбоев в приложениях Microsoft Agent, использующих речевые модули SAPI 4.0, установите поддержку среды выполнения SAPI 4.0a и переустановите речевые модули SAPI 4.0. Это необходимо сделать, даже если в их работе с Microsoft Agent до обновления до Windows&nbsp;XP не было сбоев.</P> 
+
+<p>Чтобы установить поддержку среды выполнения SAPI версии 4.0a, перейдите по следующей ссылке:</P>
+<UL>
+<LI><A HREF="http://go.microsoft.com/fwlink/?LinkId=3354" TARGET="_blank"><U>Установка поддержки среды выполнения SAPI 4.0a</U></A></LI>
+</UL>
+
+
+<H2><A NAME="smtp_authentication_iabx"></A> Проверка подлинности SMTP</H2>
+
+<P>Эта заметка относится только к версии Windows&nbsp;XP Professional.</P>
+
+<P>В системе Windows&nbsp;XP службу протокола SMTP можно настроить на проверку подлинности клиентов перед использованием ими команд. При установке или обновлении до Windows&nbsp;XP Professional в рабочей группе параметры проверки подлинности NTLM (ранее Windows&nbsp;NT&nbsp;LAN Manager) и Generic Security Services API (GSSAPI) не работают, так как раздел реестра настроен на проверку подлинности только гостевых учетных записей.</P>
+
+<P>Эту проблему можно решить, настроив раздел реестра принудительной проверки подлинности гостевых учетных записей.</P> 
+
+<P>Дополнительные сведения см. в статье <A HREF="http://go.microsoft.com/fwlink/?LinkID=28512" TARGET="_blank"><U>304707</U></A> базы знаний Майкрософт &quot;Настройка проверки подлинности SMTP в системе Windows&nbsp;XP Professional Edition&quot; (на английском языке).</P>
+
+<P CLASS="caution">Внимание!</P>
+<UL>
+    <LI>
+Ошибка при изменении реестра может серьезно повредить систему, поэтому перед его выполнением необходимо создать резервные копии всех важных данных.
+
+	</LI>
+</UL>
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="storage_msrl"></A> Хранение</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+<H2><A NAME="logical_volume_manager_tqkl"></A> Диспетчер логических томов</H2>
+
+<P>Имена локальных дисков (буквы латинского алфавита) обычно назначаются последовательно, начиная с буквы C (C, D, E и т.&nbsp;д.). Для имен сетевых дисков буквы назначаются в обратном порядке, начиная с буквы Z (Z, Y, X и т.&nbsp;д.). </P>
+
+<P>Конфликты между именами дисков и существующих общих сетевых дисков могут возникать при подключении к компьютеру с системой Windows&nbsp;XP цифровых камер и других устройств, использующих карты памяти. То же может происходить при добавлении внешних дисков (например, USB-дисков или дисков 1394). При возникновении конфликта с именем существующего общего сетевого диска устройство или внешний диск становятся недоступны. </P>
+
+<P>Чтобы предотвратить эту проблему, разрешите автоматическое назначение имен сетевых дисков системой Windows или выбирайте для дисков буквы из начала алфавита.</P>
+
+<H2><A NAME="volume_management_dlmz"></A> Управление томами</H2>
+
+<P>Система Windows&nbsp;XP не поддерживает наборы томов Microsoft Windows&nbsp;NT&reg; 4.0 Ftdisk.</P> 
+
+<P>При работе с системой Microsoft Windows&nbsp;2000 перед обновлением до Windows&nbsp;XP преобразуйте наборы томов Ftdisk в динамические тома. При работе с системой Windows&nbsp;NT 4.0 перед обновлением до Windows&nbsp;XP разделите все зеркальные тома и выполните архивацию данных в наборах чередующихся томов, томов RAID5 или расширенных томов. Наборы Ftdisk могут быть недоступны после обновления.</P>
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="other_vezl"></A> Прочие сведения</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+<H2><A NAME="microsoft_virtual_machine_for_java_dkdu"></A> Виртуальная машина Java (Майкрософт)</H2>
+
+<p>Виртуальная машина (Майкрософт) больше недоступна. Если при работе с обозревателем Microsoft Internet Explorer&nbsp;6 требуется поддержка Java, можно приобрести виртуальную машину Java у другого поставщика. Список поставщиков см. на <a href="http://go.microsoft.com/fwlink/?LinkId=27499" TARGET="_blank"><u>веб-узле корпорации Майкрософт</u></a> (на английском языке).</p>
+
+ <P CLASS="note">Примечание</P>
+<UL>
+    <LI>
+      Корпорация Майкрософт не осуществляет техническую или гарантийную поддержку продуктов сторонних разработчиков.
+	</LI>
+	</UL>
+
+
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="additional_resources_tcsn"></A> Дополнительные ресурсы</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+
+<P>Чтобы получить последние сведения о совместимости приложений и найти другие продукты для системы Windows, посетите <A HREF="http://go.microsoft.com/fwlink/?LinkId=3410" TARGET="_blank"><U>веб-узел Windows Marketplace</U></A> (на английском языке).</P>
+
+<P>Сведения о технической поддержке и вспомогательных средствах для продуктов Майкрософт см. в базе знаний Майкрософт на <A HREF="http://go.microsoft.com/fwlink/?LinkId=1856" TARGET="_blank"><U>веб-узле технической поддержки Майкрософт</U></A>.</P>
+
+<P>Получить последние обновления продуктов можно на <A HREF="http://go.microsoft.com/fwlink/?LinkId=284" TARGET="_blank"><U>веб-узле Центра обновления Windows</U></A>.</P>
+
+<BR><BR>
+<TABLE CLASS="heading" cellPadding=0 cellSpacing=0 width="97%">
+  <TBODY>
+  <TR vAlign=bottom>
+    <TD>
+      <H1><A NAME="copyright_details_ikxn"></A> Авторские права</H1>
+	</TD>
+    <TD align=right><A class="finePrint"        href="#microsoft_windows xp_release_notes_jrut">К
+      началу</A></TD></TR></TBODY></TABLE>
+<HR>
+
+
+<p>Содержащиеся в данном документе сведения, включая URL-адреса и другие ссылки на веб-узлы, могут быть изменены без уведомления. Если не указано иное, названия организаций, предприятий, изделий, а также имена доменов, адреса электронной почты, эмблемы, лица, места и события, используемые в качестве примеров, являются вымышленными. Возможное сходство с реальными названиями организаций, предприятий, изделий, именами доменов, адресами электронной почты, эмблемами, лицами, местами и событиями следует рассматривать как случайное.  Пользователь несет ответственность за соблюдение всех применимых законов об авторских правах. Согласно законам об авторских правах воспроизведение, хранение или представление любых частей данного документа в какой-либо системе хранения данных, а также их передача в любой форме и любыми средствами (электронными, механическими, фотокопировальными, записывающими или другими) в каких бы то ни было целях без специального письменного разрешения корпорации Майкрософт запрещены. </p>
+
+<p>Корпорации Майкрософт могут принадлежать патенты, заявки на их получение, товарные знаки, авторские права и другие права на интеллектуальную собственность, относящиеся к содержанию документа. Предоставление данного документа не означает передачу какой-либо лицензии на использование этих патентов, товарных знаков, авторских прав и другой интеллектуальной собственности, за исключением случаев, явно оговоренных в письменном лицензионном соглашении корпорации Майкрософт.</p>
+
+<p>&copy; Корпорация Майкрософт (Microsoft Corp.), 2008.  Все права защищены.</p>
+
+<p>Microsoft, <nobr>MS-DOS</nobr>, Windows, Windows&nbsp;NT и Windows Server являются охраняемыми товарными знаками корпорации Майкрософт в США и других странах.</p>
+
+<p>Этот продукт содержит программное обеспечение графических фильтров, частично основанное на работе Independent JPEG Group.</p>
+
+<p>Названия организаций и продуктов, упомянутые в данном документе, могут являться товарными знаками их владельцев.</p>
+
+
+<H2>Благодарности</H2>
+
+<P>Этот продукт частично основан на работе Марка Коулберна (Mark H. Colburn) и профинансирован ассоциацией USENIX Association. &copy; Марк Коулберн (Mark H. Colburn), 1989. Все права защищены.</P>
+
+<P>Этот продукт включает программное обеспечение, разработанное в университете Беркли, штат Калифорния (University of California, Berkeley), и его вспомогательных организациях.</P>
+
+<p>Этот продукт частично основан на работе членов правления университета Беркли, штат Калифорния (University of California, Berkeley), и его вспомогательных организаций. Корпорация Майкрософт включила в продукт программное обеспечение, разработанное членами правления университета Беркли, штат Калифорния, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</p>
+
+<p class="indent">Copyright &copy; 1985, 1988 Regents of the University of California.  Все права защищены.</p>
+
+<p class="indent">Redistribution and use in source and binary forms are permitted provided that the above copyright notice and this paragraph are duplicated in all such forms and that any documentation, advertising materials, and other materials related to such distribution and use acknowledge that the software was developed by the University of California, Berkeley.  The name of the University may not be used to endorse or promote products derived from this software without specific prior written permission. THIS SOFTWARE IS PROVIDED &quot;AS IS&quot; AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,  WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+
+<P>Этот продукт частично основан на работе Грега Ройлофса (Greg Roelofs). Корпорация Майкрософт включила в продукт программное обеспечение, разработанное Грегом Ройлофсом, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</P>
+
+<P class="indent">Copyright &copy; 1998-1999 Greg Roelofs. Все права защищены.</P>
+
+<P class="indent">This software is provided &quot;as is,&quot; without warranty of any kind, express or implied. In no event shall the author or contributors be held liable for any damages arising in any way from the use of this software.</P>
+
+<P class="indent">Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:</p>
+
+<OL class="indent">
+	<LI>Redistributions of source code must retain the above copyright notice, disclaimer, and this list of conditions.</li>
+	<LI>Redistributions in binary form must reproduce the above copyright notice, disclaimer, and this list of conditions in the documentation and/or other materials provided with the distribution.</li>
+	<LI>All advertising materials mentioning features or use of this software must display the following acknowledgment:</li></OL>
+
+<P class="indent">This product includes software developed by Greg Roelofs and contributors for the book, <I>PNG: The Definitive Guide</I>, published by O'Reilly and Associates.</P>
+
+<P>Это программное обеспечение частично основано на работе компании Hewlett-Packard. Корпорация Майкрософт включила в этот продукт программное обеспечение, разработанное компанией Hewlett-Packard, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</P>
+
+<P class="indent">Copyright &copy; 1994 Hewlett-Packard Company</P>
+
+<P class="indent">Permission to use, copy, modify, distribute and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.  Hewlett-Packard Company makes no representations about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty.</P>
+
+<P>Это программное обеспечение частично основано на работе сотрудников университета Южной Калифорнии (University of Southern California). Корпорация Майкрософт включила в этот продукт программное обеспечение, разработанное в университете Южной Калифорнии, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</P>
+
+<P class="indent">Copyright &copy; 1996 by the University of Southern California. Все права защищены.</P>
+
+<P class="indent">Permission to use, copy, modify, and distribute this software and its documentation in source and binary forms for any purpose and without fee is hereby granted, provided that both the above copyright notice and this permission notice appear in all copies &ndash; and that any documentation, advertising materials, and other materials related to such distribution and use acknowledge that the software was developed in part by the University of Southern California, Information Sciences Institute.  The name of the University may not be used to endorse or promote products derived from this software without specific prior written permission.</P>
+
+<p class="indent">THE UNIVERSITY OF SOUTHERN CALIFORNIA makes no representations about the suitability of this software for any purpose.  THIS SOFTWARE IS PROVIDED &quot;AS IS&quot; AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</p>
+
+<P>Это программное обеспечение частично основано на работе Луиджи Риццо (Luigi Rizzo). Корпорация Майкрософт включила в этот продукт программное обеспечение, разработанное Луиджи Риццо, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</P>
+
+<P class="indent">&copy; 1997-98 Luigi Rizzo (luigi@iet.unipi.it)</P>
+
+<P class="indent">Portions derived from code by Phil Karn (karn@ka9q.ampr.org), Robert Morelos-Zaragoza (robert@spectra.eng.hawaii.edu) and Hari Thirumoorthy (harit@spectra.eng.hawaii.edu), Aug 1995</P>
+
+<P class="indent">Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+
+<OL class="indent">
+	<LI>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
+	<LI>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li></OL>
+
+<p class="indent">THIS SOFTWARE IS PROVIDED BY THE AUTHORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>
+
+<P>Это программное обеспечение частично основано на работе сотрудников Массачусетского технологического института (Massachusetts Institute of Technology). Корпорация Майкрософт включила в этот продукт программное обеспечение, разработанное в Массачусетском технологическом институте, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</P>
+
+<P class="indent">Copyright &copy; 1989,1990 by the Massachusetts Institute of Technology. Все права защищены.</P>
+
+<P class="indent">WITHIN THAT CONSTRAINT, permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of M.I.T. not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. M.I.T. makes no representations about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty.</P>
+
+<P class="indent">Under U.S. law, this software may not be exported outside the US without license from the U.S. Commerce department.</P>
+
+<P>Это программное обеспечение частично основано на работе членов правления университета штата Мичиган (Regents of The University of Michigan). Корпорация Майкрософт включила в этот продукт программное обеспечение, разработанное членами правления университета штата Мичиган, поэтому необходимо включить следующий текст, сопровождающий это программное обеспечение.</P>
+
+<P class="indent">Copyright &copy; 1995,1996 Regents of The University of Michigan. Все права защищены.</P>
+
+<P class="indent">Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of The University of Michigan not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. This software is supplied as is without expressed or implied warranties of any kind.</P>
+
+</BODY>
+</HTML>
+

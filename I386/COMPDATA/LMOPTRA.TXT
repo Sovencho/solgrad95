@@ -1,0 +1,40 @@
+Сведения о совместимости
+
+При использовании установленного драйвера в Microsoft Windows ХР перечисленные ниже принтеры Lexmark могут работать некорректно.
+
+Lexmark Optra M412 PS3
+Lexmark Optra E312 PS2
+Lexmark Optra T610 PS3
+Lexmark Optra T612 PS3
+Lexmark Optra T614 PS3
+Lexmark Optra T616 PS3
+Lexmark Optra C710 PS3
+Lexmark Optra W810 PS3
+Lexmark Optra M410 PS3
+Lexmark Optra E310 PS2
+Lexmark Optra Se 3455 PS2
+Lexmark Optra Color 40 PS2
+Lexmark Optra Color 45 PS2
+Lexmark Optra Color 1200 PS2
+Lexmark Optra S 1255 PS2
+Lexmark Optra S 1625 PS2
+Lexmark Optra S 1855 PS2
+Lexmark Optra S 2455 PS2
+Lexmark Optra S 1255 plus PS3
+Lexmark Optra S 1625 plus PS3
+Lexmark Optra S 1855 plus PS3
+Lexmark Optra S 2455 plus PS3
+Lexmark Optra Se 3455 plus PS3
+Lexmark Optra K 1220 PS2
+Lexmark Optra SC 1275 PS2
+Lexmark Optra S PS2
+Lexmark Optra N PS2
+Lexmark Optra Ep PS2
+Lexmark Optra C PS2
+Lexmark Optra plus PS2
+Lexmark Color 4079 plus PS2
+Lexmark Optra PS2
+
+Если данный драйвер будет уделен перед обновлением, программа установки Windows XP установит совместимый драйвер.
+Для получения последней версии драйверов принтера посетите веб-узел Lexmark. Веб-адреса могут изменяться, поэтому существует вероятность того, что к этому узлу подключиться не удастся.
+

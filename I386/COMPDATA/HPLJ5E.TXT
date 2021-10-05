@@ -1,0 +1,21 @@
+Сведения о совместимости
+
+При использовании установленного драйвера в Microsoft Windows ХР перечисленные ниже принтеры Hewlett-Packard могут работать неправильно.
+
+HP LaserJet 4
+HP LaserJet 4M
+HP LaserJet 4M Plus
+HP LaserJet 4P
+HP LaserJet 4Si
+HP LaserJet 4Si MX
+HP LaserJet 4V
+HP LaserJet 5/5M (стандартный)
+HP LaserJet 5P/5MP (HP)
+HP LaserJet 5Si Mopier PCL 5e
+HP LaserJet 5Si PCL 5e
+HP LaserJet 6P/6MP (стандартный)
+HP LaserJet 4 Plus
+
+Если данный драйвер будет уделен перед обновлением, программа установки Windows XP установит совместимый драйвер.
+Для получения последней версии драйверов принтера посетите веб-узел Hewlett-Packard. Веб-адреса могут изменяться, поэтому существует вероятность того, что к этому узлу подключиться не удастся.
+

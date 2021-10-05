@@ -1,0 +1,6 @@
+Сведения о совместимости
+
+Certificate Server 1.0 не может быть непосредственно обновлен с Windows NT 4.0 до Windows XP Server. При продолжении обновления настройки Certificate Server будут утеряны и Certificate Server будет автоматически удален. Если сначала выполняется обновление до Windows XP, а затем — до Windows XP Server, все настройки Certificate Server будут сохранены.
+
+Для получения дополнительных сведений о Windows XP Certificate Services посетите веб-узел корпорации Майкрософт.
+
