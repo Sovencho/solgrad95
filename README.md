@@ -1,6 +1,5 @@
 # solgrad95
 
-Да.
 
 Редач через Restorator 2018
 
